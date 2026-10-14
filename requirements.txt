@@ -1,0 +1,10 @@
+anthropic>=0.40.0
+httpx>=0.27.0
+pandas>=2.2.0
+# pandas-ta dropped: requires numba which doesn't support Python 3.14.
+# Technical indicators are computed directly with pandas in technicals.py.
+yfinance>=0.2.40
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+feedparser>=6.0.11
+pytest>=8.0.0
