@@ -37,7 +37,7 @@ def main() -> None:
     logger.info("Step 3: Storing results...")
     store(snapshot, forecast)
 
-    logger.info("Step 4: Sending WhatsApp notification...")
+    logger.info("Step 4: Sending Telegram notification...")
     notify()
 
     logger.info("=== Pipeline complete ===")
